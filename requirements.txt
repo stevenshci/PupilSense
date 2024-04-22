@@ -1,0 +1,11 @@
+torch==2.2.0
+torchvision
+matplotlib
+numpy
+scikit-learn
+fvcore
+cloudpickle
+omegaconf
+opencv-python
+pycocotools
+python-dotenv
