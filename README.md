@@ -5,7 +5,7 @@
 # Introduction
 **PupilSense** is a deep learning-based pupillometry system. It uses eye images collected from smartphones for research in the behavior modeling domain.
 
-The accompanying data collection app will be published soon for the research community.
+The accompanying data collection app will be released soon for the research community.
 
 <img width="1750" alt="Pupil-to-Iris Ratio (PIR) Estimation Pipeline" src="https://github.com/stevenshci/PupilSense/blob/main/static/PupilSense.png">
 
@@ -20,7 +20,7 @@ Follow these steps to set up the project:
 
 ### Setup
 
-After installing the required packages, run the setup.sh script to set up the project environment:
+After you install the required packages, you can just run the `setup.sh` script to set up the project environment:
     
     source setup.sh
 
@@ -80,6 +80,19 @@ If you'd like to contribute to this project, please follow these steps:
     (3) Make your changes and commit them: git commit -m 'Add new feature'
     (4) Push to the branch: git push origin feature/new-feature
     (5) Submit a pull request
+
+## Citation
+If you find this repository useful, please consider giving a star :star: and citation using the given BibTeX entry:
+```
+@misc{islam2024pupilsense,
+      title={PupilSense: Detection of Depressive Episodes Through Pupillary Response in the Wild}, 
+      author={Rahul Islam and Sang Won Bae},
+      year={2024},
+      eprint={2404.14590},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
+} 
+```
 
 ## License
 
