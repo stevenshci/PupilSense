@@ -1,6 +1,6 @@
 <img width="1750" alt="PupilSense: Detection of Depressive Episodes Through Pupillary Response in the Wild" src="https://github.com/stevenshci/PupilSense/blob/main/static/header.png">
 
-> This is the official codebase of the pupillometry system paper [PupilSense: Detection of Depressive Episodes Through Pupillary Response in the Wild](https://arxiv.org/), accepted by [2024 International Conference on Activity and Behavior Computing](https://autocare.ai/abc2024).
+> This is the official codebase of the pupillometry system paper [PupilSense: Detection of Depressive Episodes Through Pupillary Response in the Wild](https://arxiv.org/abs/2404.14590), accepted by [2024 International Conference on Activity and Behavior Computing](https://autocare.ai/abc2024).
 
 # Introduction
 **PupilSense** is a deep learning-based pupillometry system. It uses eye images collected from smartphones for research in the behavior modeling domain.
