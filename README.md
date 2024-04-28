@@ -71,15 +71,10 @@ The model robustly segments the pupil and iris regions in diverse real-world con
 This capability enables practical applications in biometrics, human-computer interaction, and medical imaging, where precise segmentation in naturalistic settings is crucial.
 
 
-## Contributing
+## Pretrained Models
 
-If you'd like to contribute to this project, please follow these steps:
+Click [Pretrained Models](https://github.com/stevenshci/PupilSense/releases/download/v1.0/models.zip) to download our pre-trained model for PupilSense, and unzip it into `models`.
 
-    (1) Fork the repository
-    (2) Create a new branch: git checkout -b feature/new-feature
-    (3) Make your changes and commit them: git commit -m 'Add new feature'
-    (4) Push to the branch: git push origin feature/new-feature
-    (5) Submit a pull request
 
 ## Citation
 If you find this repository useful, please consider giving a star :star: and citation using the given BibTeX entry:
