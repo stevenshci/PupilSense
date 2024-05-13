@@ -96,7 +96,7 @@ class Inference:
         class_names = ["Iris", "Pupil"]
 
         v = Visualizer(image[:, :, ::-1], metadata = {"thing_classes": class_names}, scale=2.0)
-        out = v.draw_instance_predictions(output["instances"].to(device))
+        out = v.draw_instance_predictions(output["instances"].to("cpu"))
 
         # Convert BGR to RGB
         out_rgb = cv2.cvtColor(out.get_image(), cv2.COLOR_BGR2RGB)
