@@ -14,8 +14,13 @@ from finetune import Finetune
 # Check if CUDA is available
 cuda_available = torch.cuda.is_available()
 
+#Check if MPS is available
+mps_available = torch.backends.mps.is_available()
+
 if cuda_available:
     device = 'cuda'
+elif mps_available:
+    device = 'mps'
 else:
     #If none set device as CPU
     device = 'cpu'
@@ -58,6 +63,7 @@ class Inference:
         # Inference should use the config with parameters that are used in training
         # cfg now already contains everything we've set previously. We changed it a little bit for inference:
         cfg.MODEL.WEIGHTS = os.path.join(model_path, "model_final.pth")  # path to the model we just trained
+        cfg.MODEL.DEVICE = device #configuring the device for inference
         cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.9   # set a custom testing threshold
 
         return DefaultPredictor(cfg)
