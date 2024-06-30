@@ -2,6 +2,10 @@
 
 > This is the official codebase of the pupillometry system paper [PupilSense: Detection of Depressive Episodes Through Pupillary Response in the Wild](https://arxiv.org/abs/2404.14590), accepted by [2024 International Conference on Activity and Behavior Computing](https://autocare.ai/abc2024).
 
+# News 📰
+> The data collection app paper accepted by [ACM MobileHCI (2024)](https://mobilehci.acm.org/2024/), titled [FacePsy: An Open-Source Affective Mobile Sensing System -- Analyzing Facial Behavior and Head Gesture for Depression Detection in Naturalistic Settings](https://arxiv.org/abs/2406.17181). GitHub is coming soon!
+
+
 # Introduction
 **PupilSense** is a deep learning-based pupillometry system. It uses eye images collected from smartphones for research in the behavior modeling domain.
 
