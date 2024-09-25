@@ -85,14 +85,16 @@ Click [Pretrained Models](https://github.com/stevenshci/PupilSense/releases/down
 ## Citation
 If you find this repository useful, please consider giving a star :star: and citation using the given BibTeX entry:
 ```
-@misc{islam2024pupilsense,
-      title={PupilSense: Detection of Depressive Episodes Through Pupillary Response in the Wild}, 
-      author={Rahul Islam and Sang Won Bae},
-      year={2024},
-      eprint={2404.14590},
-      archivePrefix={arXiv},
-      primaryClass={cs.HC}
-} 
+@INPROCEEDINGS{10652166,
+  author={Islam, Rahul and Bae, Sang Won},
+  booktitle={2024 International Conference on Activity and Behavior Computing (ABC)}, 
+  title={PupilSense: Detection of Depressive Episodes through Pupillary Response in the Wild}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={01-13},
+  keywords={Laboratories;Mental health;Depression;Real-time systems;Wearable devices;Monitoring;Smart phones;Pupillometry;Depression;Affective computing;Machine Learning},
+  doi={10.1109/ABC61795.2024.10652166}}
 ```
 
 ## License
